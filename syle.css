@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*inicio cabecera*/
+.cabecera{
+    background-color:rgb(144, 198, 90) ;
+    width: 70%;
+    height: 50px;
+    padding: 0 50px;
+}
+
+.cabecera_link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cabecera_img{
+    object-fit: cover;
+    height: 90%;
+    margin-right: 10px;
+
+}
+/*fin cabecera*/
+
+/*inicio navegacion*/
+.navegacion{
+    background-color:rgb(0, 0, 0) ;
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+.navegacion a:hover{
+   color: rgb(0, 0, 0);
+    background-color: rgb(216, 176, 31);
+}
+
+/*fin navegacion*/
+
+/*inicio banner*/
+.banner{
+    background-image: url(Grent\ title.jpg) ;
+    background-position: center;
+    width: 70%;
+    height: calc(100vh - 110px); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+.banner h1{
+    font-size: 75px;
+}
+.banner h2{
+    font-size: 30px;
+}
+.banner a{
+    background-color: rgb(214, 97, 7);
+    width: 250px;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 75px;
+    color: white;
+}
+.banner a:hover{
+    background-color: rgb(75, 45, 25);
+    color: white;
+}
+/*fin banner*/
+
+/*inicia seccion 2*/
+.seccion-2{
+    background-color: rgb(212, 241, 220);
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+.bloque-izq{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.izq-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.izq-titulo h2{
+    font-size: 20px;
+}
+.izq-titulo h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(113, 113, 113);
+}
+
+.izq-img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.izq-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.izq-parrafo{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.bloque-der{
+    width: 40%;
+    height: 100%;
+    padding: 0 3%;
+}
+
+.der-titulo{
+    text-align: center;
+}
+
+.der-titulo h3{
+    font-size: 20px;
+}
+
+.der-albums{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 30px 0;
+}
+
+.noticias-img{
+    width: 50%;
+}
+
+.noticias-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.noticias-textos{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.noticias-textos h4{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.noticias-textos p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.noticias-textos a{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+
+/*finaliza seccion 2*/
+
+/*Inicio seccion 3*/
+.seccion-3{
+    background-color: rgb(224, 245, 255);
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.article{
+  
+    width: 60%;
+    height: 100%;
+    padding: 0 3%;
+}
+
+.Tabla-canciones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tabla-canciones h2{
+    font-size: 28px;
+    color: black;
+    padding: 5% 0;
+}
+
+.Tabla-canciones h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(113, 113, 113);
+}
+
+.tabla-div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.tabla{
+    table-layout: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    height: 50%;
+}
+
+.fila-encabezado{
+    background-color: rgb(102, 135, 52);
+    width: auto;
+    height: 40px;
+
+}
+
+.fila-dato{
+    width: auto;
+    height: 40px;
+}
+
+.fila-dato :nth-child(odd){
+    background-color:rgb(198, 255, 205);
+}
+
+.fila-dato :nth-child(even){
+    background-color:rgb(223, 255, 215);
+}
+
+.columna{
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.rs-div{
+
+    width: 100%;
+    height: auto;
+}
+
+.rs-img{
+    width: 100%;
+    height: 40px;
+}
+
+.rs-img img{
+    object-fit: cover;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.aside{
+    background-color: crimson;
+    width: 40%;
+    height: 100%;
+}
+
+.mapa{
+    background-color: aquamarine;
+    width: 100%;
+    height: 35%;
+    border: 0;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.form-div{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+
+.form-div h3{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.form-div p{
+    font-size: 18px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.formulario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.input{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    outline: none;
+}
+
+.textarea{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    outline: none;
+    resize: none;
+}
+
+.submit{
+    width: 50%;
+    height: 80px;
+    margin: 5px 0;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+ 
+}
+
+
+
+/*Finaliza seccion 3*/
+
+/*Inicia seccion 4*/
+.seccion-4{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion-footer{
+    background-color:rgb(0, 0, 0) ;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navegacion-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+.navegacion-footer a:hover{
+   color: rgb(0, 0, 0);
+    background-color: rgb(216, 176, 31);
+}
+
+.contenedor-s4{
+    background-color: blueviolet;
+    width: 100%;
+    height: calc(100% - 120px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textos-s4{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+.textos-s4 h3{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.textos-s4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+    margin: 5px 0;
+}
+
+.textos-s4:nth-child(odd){
+    background-color: rgb(22, 22, 22);
+}
+
+.textos-s4:nth-child(even){
+    background-color: rgb(36, 36, 36);
+}
+
+.footer{
+    background-color: green;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.footer p{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+/*Finaliza seccion 4*/
